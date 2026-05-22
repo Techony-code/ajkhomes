@@ -6,6 +6,7 @@ import Stats from "../components/Stats";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../layout/Footer";
+import Certifications  from "../components/Certifications";
 
 const Home = ({ toggleTheme, theme }) => {
   return (
@@ -16,6 +17,7 @@ const Home = ({ toggleTheme, theme }) => {
       <Properties />
       <Stats />
       <Services />
+      <Certifications />
       <Contact />
       <Footer />
     </>

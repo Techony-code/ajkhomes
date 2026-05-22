@@ -77,7 +77,7 @@ const Contact = () => {
                 Email
               </h3>
               <p className="text-gray-600 dark:text-darkText/70">
-                info@ajkestates.com
+                ajkgreensportshomesandgarden@gmail.com
               </p>
             </div>
           </div>

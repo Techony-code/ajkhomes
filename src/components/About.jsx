@@ -33,12 +33,17 @@ const About = () => {
             Our mission is to provide affordable, sustainable, and eco-friendly residential developments that promote a healthy, active lifestyle through integration with sports facilities and green spaces
           </p>
 
-          <button className="bg-primary text-white dark:bg-accent dark:text-darkBg
+          <a
+            href="https://www.facebook.com/share/1DDrEoijRE/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-primary text-white dark:bg-accent dark:text-darkBg
             px-6 py-3 rounded-lg font-semibold
             hover:scale-105 active:scale-95
-            transition-all duration-300">
-            Learn More
-          </button>
+            transition-all duration-300"
+          >
+            Learn more
+          </a>
         </div>
 
       </div>

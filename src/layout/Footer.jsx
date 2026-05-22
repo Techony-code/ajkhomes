@@ -86,7 +86,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 dark:border-darkBorder mt-12 pt-6 text-center text-white/70 dark:text-darkText/70">
-          © {new Date().getFullYear()} AJK Green Sport Home and Gardens Ltd. All rights reserved.
+          © {new Date().getFullYear()} AJK Green Sport Home and Gardens Ltd. All rights reserved. <br /> RC 1668214
         </div>
 
       </div>
