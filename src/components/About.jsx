@@ -43,7 +43,7 @@ const About = () => {
             transition-all duration-300"
           >
             Learn more
-          </a>
+          </a>,
         </div>
 
       </div>
