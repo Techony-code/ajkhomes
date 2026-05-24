@@ -3,6 +3,7 @@ import {
   BuildingOffice2Icon,
   WrenchScrewdriverIcon,
   PencilSquareIcon,
+  MapIcon,
 } from "@heroicons/react/24/outline";
 
 const services = [
@@ -26,11 +27,19 @@ const services = [
     title: "Consultancy & Architectural Design",
     icon: PencilSquareIcon,
   },
+  {
+    id: 5,
+    title: "Land Surveying",
+    icon: MapIcon,
+  },
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-24 bg-cream dark:bg-darkCard transition-colors duration-500">
+    <section
+      id="services"
+      className="scroll-mt-24 py-24 bg-cream dark:bg-darkCard transition-colors duration-500"
+    >
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
@@ -44,7 +53,7 @@ const Services = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
           {services.map((service) => {
             const Icon = service.icon;

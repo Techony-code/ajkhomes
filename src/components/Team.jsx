@@ -1,15 +1,17 @@
 const teamMembers = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Azeez Salmon Opeyemi",
     role: "Director",
     image: "/team/member1.jpg",
+    bio: "Experienced business leader focused on innovation, growth, and delivering high-quality services to clients.",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Rajah Ibrahim",
     role: "Co - Director",
     image: "/team/member2.jpg",
+    bio: "Passionate about strategic planning, teamwork, and building strong relationships that drive company success.",
   },
 ];
 
@@ -26,13 +28,14 @@ const Team = () => {
           <h2 className="text-4xl font-bold text-primary dark:text-accent">
             Meet Our Team
           </h2>
+
           <p className="mt-4 text-gray-600 dark:text-darkText/70">
             The professionals behind our success.
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto ">
+        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
 
           {teamMembers.map((member) => (
             <div
@@ -53,6 +56,11 @@ const Team = () => {
 
                 <p className="text-primary dark:text-accent mt-2">
                   {member.role}
+                </p>
+
+                {/* Bio */}
+                <p className="mt-4 text-gray-600 dark:text-darkText/70 text-sm leading-relaxed">
+                  {member.bio}
                 </p>
               </div>
             </div>
