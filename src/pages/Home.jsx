@@ -7,6 +7,8 @@ import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../layout/Footer";
 import Certifications  from "../components/Certifications";
+import WhatsAppFloat from "../components/WhatsAppFloat";
+import Team from "../components/Team";
 
 const Home = ({ toggleTheme, theme }) => {
   return (
@@ -18,8 +20,10 @@ const Home = ({ toggleTheme, theme }) => {
       <Stats />
       <Services />
       <Certifications />
+      <Team />
       <Contact />
       <Footer />
+      <WhatsAppFloat />
     </>
   );
 };
