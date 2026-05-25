@@ -29,10 +29,30 @@ const About = () => {
             We specialize in residential and commercial property management.
           </p>
 
-          <p className="text-gray-700 dark:text-darkText/80 mb-8 leading-relaxed">
-            Our mission is to provide affordable, sustainable, and eco-friendly residential developments that promote a healthy, active lifestyle through integration with sports facilities and green spaces
-          </p>
+          {/* Mission */}
+          <div className="mb-6">
+            <h3 className="text-2xl font-semibold text-primary dark:text-accent mb-2">
+              Mission
+            </h3>
 
+            <p className="text-gray-700 dark:text-darkText/80 leading-relaxed">
+              To provide affordable, sustainable, and eco-friendly residential
+              developments that promote a healthy, active lifestyle through
+              integration with sports facilities and green spaces.
+            </p>
+          </div>
+
+          {/* Vision */}
+          <div className="mb-8">
+            <h3 className="text-2xl font-semibold text-primary dark:text-accent mb-2">
+              Vision
+            </h3>
+
+            <p className="text-gray-700 dark:text-darkText/80 leading-relaxed">
+              To be a leading provider of innovative, nature-integrated, and
+              health-focused real estate solutions in Nigeria and beyond.
+            </p>
+          </div>
           <a
             href="https://www.facebook.com/share/1DDrEoijRE/"
             target="_blank"

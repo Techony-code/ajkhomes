@@ -59,6 +59,7 @@ const Footer = () => {
               <li>Construction</li>
               <li>Estate Management</li>
               <li>Consultancy</li>
+              <li>Land Surveying</li>
             </ul>
           </div>
 
@@ -78,7 +79,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-2 text-white/80 dark:text-darkText/80">
-              info@ajkestates.com
+              ajkgreensportshomesandgarden@gmail.com
             </p>
           </div>
 
